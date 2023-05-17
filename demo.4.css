@@ -1,0 +1,211 @@
+body{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: lightgray;
+}
+header{
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: sticky;
+  top: 0px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+nav li {
+  margin-right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+.menu{
+  display: flex;
+}
+form {
+  display: flex;
+  align-items: center;
+}
+
+input[type="text"]{
+  width: 400px;
+  height: 50px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button[type="submit"]{
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.hamburger{
+  display: none;
+  font-size: 24px;
+  user-select: none;
+}
+.respontive_menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+}
+.respontive_menu li:hover{
+  border-bottom: 2px solid white;
+  transition: 0.3s ease;
+}
+.respontive_menu li {
+  padding: 5px 14px;
+}
+input[type="checkbox"]{
+  display: none;
+}
+.dropdown_main{
+  position: relative; 
+}
+.dropdown {
+  background-color: lightgray;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  position: absolute;
+  display: none;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+.dropdown li + li{
+  margin-top: 10px;
+}
+.dropdown li {
+  padding: 0.5em 1em;
+  width: 8em;
+  text-align: center;
+}
+.dropdown li:hover {
+  background-color: #333;
+  box-sizing: 10px 10px 10px 10px;
+  border-radius: 8px;
+
+}
+.dropdown_main:hover .dropdown {
+  display: block;
+}
+.dropdown_main:hover .dropdown {
+  display: block;
+}
+.card{
+  margin: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  font-size: 10px;
+  background-color: white;
+}
+.card1{
+  display: flex;
+  flex-direction: row;
+}
+div h2{
+  font-size: 20px;
+  padding-left: 50px;
+  color: #202020;
+}
+div a{
+  text-decoration: none;
+}
+.card_folder{
+  border: 1px solid black;
+  width: 25%;
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+span{
+  color: #00CED1;
+  text-decoration: underline;
+}
+p{
+  color: black;
+}
+.logo_truck{
+  width: 50px;
+  height: 30px;
+}
+.logo_return{
+  width: 40px;
+  height: 40px;
+  padding-right: 20px;
+}
+.card_folder2{
+  background-color: white;
+  margin: 50px;
+}
+.card_folder2 div{
+  padding: 10px;
+}
+.card_folder2{
+  padding-top: 10px;
+}
+.card_folder2 img{
+  padding-left: 40px;
+  padding-bottom: 40px;
+  padding-right: 40pxs;
+}
+.card_control2{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+}
+.card_control2 p{
+  padding-left: 40px;
+  padding-top: 40px;
+}
+.footer_controls{
+  flex: 50%;
+  width: 100%;
+  float: left;
+  background-color: #E0E0E0;
+}
+.footer_items_controls{
+  display: flex;
+  height: 475px;
+}
+.footer_contacts{
+  background-color: #003366;
+  display: block;
+  float: left;
+  width: 20%;
+  height: 480px;
+}
+.footer_contacts a{
+  color: black;
+}
+.footer_contacts ul{
+  list-style: none;
+  text-decoration: underline;
+}
+.footer_contacts h2{
+  padding-left: 40px;
+  color: black;
+}
